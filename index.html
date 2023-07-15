@@ -14,14 +14,9 @@
         #img{
             width: 400px;
             height: 400px;
-            /* padding: 50px; */
         }
         .text{
             font-size: 42px;
-        }
-        .heading{
-            /* padding-bottom: 20px; */
-            /* font-size: 42px; */
         }
         .description{
             font-size: 32px;
@@ -35,6 +30,13 @@
             border: none;
         }
         
+        /* mobile devise */
+        @media screen and (max-width:576px) {
+            .container{
+                flex-direction: column;
+                padding: 10px;
+            }
+        }
 
     </style>
 </head>
